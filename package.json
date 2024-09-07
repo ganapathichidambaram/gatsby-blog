@@ -19,8 +19,8 @@
   "scripts": {
     "build": "gatsby build --prefix-paths",
     "build:clean": "gatsby build --prefix-paths --clean",
-    "dev": "gatsby develop -H 0.0.0.0 -o",
-    "serve": "gatsby serve --prefix-paths -H 0.0.0.0 -o",
+    "dev": "gatsby develop",
+    "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
