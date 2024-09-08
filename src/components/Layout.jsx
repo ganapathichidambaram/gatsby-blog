@@ -1,6 +1,6 @@
 import React from "react";
 import { useSiteMetadata } from "../hooks/use-site-metadata";
-import { Header } from "./header";
+import { Header } from "./Header";
 
 export const Layout = ({ children }) => {
   const { title, description } = useSiteMetadata();

@@ -5,8 +5,9 @@
   "license": "MIT",
   "dependencies": {
     "@mdx-js/mdx": "^3.0.1",
-    "@mdx-js/react": "^3.0.1",
+    "@mdx-js/react": "^2.0.0",
     "autoprefixer": "^10.4.20",
+    "clsx": "^2.1.1",
     "gatsby": "^5.13.7",
     "gatsby-plugin-mdx": "^5.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
@@ -22,7 +23,8 @@
     "dev": "gatsby develop",
     "serve": "gatsby serve --prefix-paths",
     "clean": "gatsby clean",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "start": "gatsby clean && gatsby build --prefix-paths && gh-pages -d public && gatsby serve --prefix-paths"
   },
   "devDependencies": {
     "gh-pages": "6.1.1"
